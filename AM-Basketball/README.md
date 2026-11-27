@@ -7,7 +7,7 @@ Site de Arthur de Melo, técnico de basquete, com sua trajetória, equipes e tra
 Na raiz do repositório, entre na pasta do aplicativo e inicie o servidor de desenvolvimento.
 
 ```bash
-cd "AM Basketball"
+cd AM-Basketball
 npm ci
 npm run dev
 ```
@@ -35,6 +35,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Defina `AM-Basketball` como **Root Directory** em **Settings → Build and Deployment** na Vercel. O nome da pasta entra no caminho das funções geradas pelo deploy, que precisa ficar sem espaços.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
